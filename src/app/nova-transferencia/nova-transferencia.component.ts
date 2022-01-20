@@ -13,7 +13,6 @@ export class NovaTransferenciaComponent {
   destino: number;
 
   transferir() {
-    console.log('Solicitada nova transferencia');
     // posso passar os valores numa variavel como objeto const valorEmitir = {valor: this.valor, destino: this.destino}
     // this.aoTransferir.emit({ valor: this.valor, destino: this.destino })
     const valorEmitir = {valor: this.valor, destino: this.destino}
